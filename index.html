@@ -4,28 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Psychic Game</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|BioRhyme+Expanded|Cormorant+Unicase|Exo|Gugi"
+    rel="stylesheet">
+    
 </head>
 
-<body>
+<body background="assets\images\psychic-ball.jpg" style="background-repeat: no-repeat; background-size: 100%;">
+
+  <!-- <img id="background" src="" alt="psychic-ball"> -->
+
   <!-- html - title/instructions for user -->
-    <div id="game">
-        <h1>Psychic Game</h1>
-        <h3>Guess what letter I'm thinking of. Press any letter to play!</h3>
+  <div id="game">
+    <h1>Psychic Game</h1>
+    <h3>Guess what letter I'm thinking of. Press any letter to play!</h3>
 
-        <!-- letters guessed  -->
-        <p><strong>Letters guessed: <span id="letters-guessed"></span></strong></p>
+    <!-- letters guessed  -->
+    <p><strong>Letters guessed: <span id="letters-guessed"></span></strong></p>
 
-        <!-- guesses left -->
-        <p><strong>Guesses left: <span id="guesses-left"></span></strong></p> 
+    <!-- guesses left -->
+    <p><strong>Guesses left: <span id="guesses-left"></span></strong></p>
 
-        <!-- wins -->
-        <p><strong>Wins: <span id="wins"></span></strong></p>
+    <!-- wins -->
+    <p><strong>Wins: <span id="wins"></span></strong></p>
 
-        <!-- losses -->
-        <p><strong>Losses: <span id="losses"></span></strong></p>
-    </div>
-    
-<script src="assets/javascript/game.js"></script>
+    <!-- losses -->
+    <p><strong>Losses: <span id="losses"></span></strong></p>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
 </body>
-
-
